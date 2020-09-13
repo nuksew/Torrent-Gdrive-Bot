@@ -12,7 +12,7 @@ const router = express.Router();
 
 if (!token)
   console.log(
-    "Set telegram token env var to start telegram bot. Read docs at https://github.com/patheticGeek/torrent-aio-bot"
+    "Set telegram token env var to start telegram bot. Read docs at https://github.com/SatyuShree000/Torrent-Gdrive_BOT"
   );
 
 if (site && token) {
@@ -33,7 +33,7 @@ if (site && token) {
   console.log("Bot ready");
 }
 
-router.get("/download", (req, res) => {
+router.get("/mirror", (req, res) => {
   const link = req.query.link;
 
   if (!link) {
