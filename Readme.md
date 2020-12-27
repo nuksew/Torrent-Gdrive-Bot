@@ -1,4 +1,4 @@
-# Torrent-HLeech-Bot
+# Torrent-Hdrive-Bot
 
 Lorem ipsum i am too lazy figure what it does yourself
 
